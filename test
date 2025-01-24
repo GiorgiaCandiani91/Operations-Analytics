@@ -1,0 +1,15 @@
+-- same user with multiple touchpoints for the same reason
+  With multiple_touchpoints as 
+  (select date_trunc('week',created_at)::date as week_of_touchpoint
+  , reason
+  , merchant_id
+  , count(distinct touchpoint_id) as touchpoints
+  FROM
+  "CORE_BUSINESS"."PUBLIC"."TOUCHPOINT_RESOLUTION_FACT" 
+  group by 1,2,3)
+
+  select week_of_touchpoint, count(distinct merchant_id) as multiple_inquires, avg(touchpoints) as avg_touchpoint
+  from multiple_touchpoints
+  where touchpoints > 1
+  group by 1
+  order by 1
