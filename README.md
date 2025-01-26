@@ -25,8 +25,13 @@ It is structured in the following way:
 
 **Insights folder**
 
-Contains the SQL files that I use to generate insights and a mockup dashboard screenshot
-
+Contains the SQL files that I use to generate insights and a mockup dashboard screenshot.
+1. Resolution_overview.sql and email_overview_resolution.sql to suggest a new resolution timeframe
+2. channel_overview.sql to explore which channel performed the best / worst
+3. agent_overview.sql to explore which agent performed the best 
+4. cost_overview.sql to allocate costs to the channels
+5. waiting_time.sql to explore waiting time for Calls and Chats
+6. random_exploration.sql to explore the Dataset
 
 ## Main Assumptions
 
@@ -42,5 +47,6 @@ Here are some assumptions / decisions that I took while resolving the task
 
 1. Leave the Date Timestamps for when the touchpoint is assigned to a status and when the Agent starts working on it
 2. Create an aggregated version in DBT for reporting on a daily level with the main KPIs already computed
-3. Display the trend of main KPIs in a dashboard shared with the main Stakeholders 
+3. Implement a DBT test to spot missing values for fields that shouldn't be empty (i.e. resolution time)
+4. Display the trend of main KPIs in a dashboard shared with the main Stakeholders 
 
