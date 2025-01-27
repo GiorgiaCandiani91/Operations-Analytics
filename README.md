@@ -48,5 +48,6 @@ Here are some assumptions / decisions that I took while resolving the task
 1. Leave the Date Timestamps for when the touchpoint is assigned to a status and when the Agent starts working on it
 2. Create an aggregated version in DBT for reporting on a daily level with the main KPIs already computed
 3. Implement a DBT test to spot missing values for fields that shouldn't be empty (i.e. resolution time)
-4. Display the trend of main KPIs in a dashboard shared with the main Stakeholders 
+4. Display the trend of main KPIs in a dashboard shared with the main Stakeholders
+5. Use Dashboard filters to select a specific channel / country and other key relevant dimensions
 
