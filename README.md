@@ -26,12 +26,12 @@ It is structured in the following way:
 **Insights folder**
 
 Contains the SQL files that I use to generate insights and a mockup dashboard screenshot.
-1. Resolution_overview.sql and email_overview_resolution.sql to suggest a new resolution timeframe
-2. channel_overview.sql to explore which channel performed the best / worst
-3. agent_overview.sql to explore which agent performed the best 
-4. cost_overview.sql to allocate costs to the channels
-5. waiting_time.sql to explore waiting time for Calls and Chats
-6. random_exploration.sql to explore the Dataset
+1. **Resolution_overview.sql** and **email_overview_resolution.sql** to suggest a new resolution timeframe
+2. **channel_overview.sql** to explore which channel performed the best / worst
+3. **agent_overview.sql** to explore which agent performed the best 
+4. **cost_overview.sql** to allocate costs to the channels
+5. **waiting_time.sql** to explore waiting time for Calls and Chats
+6. **random_exploration.sql** to explore the Dataset
 
 ## Main Assumptions
 
