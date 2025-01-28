@@ -1,14 +1,15 @@
 # Operations-Analytics
 
-## Main Delivarables
+##  Delivarables
 
 1. Task - Candiani SumUp
 2. Strategy Paper - Candiani SumUp
-3. Insights folder
+   
 
 **Task - Candiani SumUp** 
 
 Contains the answers to the first set of questions structured in the following way:
+
 1.Executive Summary
 2.Behind the Summary
 3.Supporting Charts
@@ -19,11 +20,12 @@ In this paper I provide the results of my analysis and some recommendations base
 
 Contains the questions, recommendations and management framework to be discussed with the VP of Operations.
 It is structured in the following way:
+
 1. Strategy for Support Teams 
 2. 2024 Channel Strategy (based on Cost)
 3. Quarterly Performance Management Framework
 
-**Insights folder**
+## Queries
 
 Contains the SQL files that I use to generate insights and a mockup dashboard screenshot.
 1. **Resolution_overview.sql** and **email_overview_resolution.sql** to suggest a new resolution timeframe
@@ -32,6 +34,9 @@ Contains the SQL files that I use to generate insights and a mockup dashboard sc
 4. **cost_overview.sql** to allocate costs to the channels
 5. **waiting_time.sql** to explore waiting time for Calls and Chats
 6. **random_exploration.sql** to explore the Dataset
+
+## Charts
+Some charts supporting the findings and recommendations in the Papers, generated with the queries above
 
 ## Main Assumptions
 
