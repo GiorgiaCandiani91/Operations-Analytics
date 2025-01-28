@@ -10,9 +10,9 @@
 
 Contains the answers to the first set of questions structured in the following way:
 
-1.Executive Summary
-2.Behind the Summary
-3.Supporting Charts
+1. Executive Summary
+2. Behind the Summary
+3. Supporting Charts
 
 In this paper I provide the results of my analysis and some recommendations based on those.
 
